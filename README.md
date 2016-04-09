@@ -3,7 +3,7 @@
 ### Karol Tymiński
 
 <b>1. Zaliczenie:</b>
- - [x] [nazwa aplikacji](zaliczenie)
- - [x] [link do wdrożonej na zewnętrznym serwerze aplikacji](/)
+ - [x] [nazwa aplikacji](Motocycle stock)
+ - [x] [link do wdrożonej na zewnętrznym serwerze aplikacji](https://motocykle-ktyminski.c9users.io/)
  
 
