@@ -1,0 +1,34 @@
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @motocycle.Brand %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @motocycle.Model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @motocycle.Year %>
+</p>
+
+<p>
+  <strong>Capacity:</strong>
+  <%= @motocycle.Capacity %>
+</p>
+
+<p>
+  <strong>Horsepower:</strong>
+  <%= @motocycle.Horsepower %>
+</p>
+<% if user_signed_in? %>
+<%= link_to 'Edit', edit_motocycle_path(@motocycle) %> |
+<% else  %>
+	<h2> </h2>
+<% end %>
+<%= link_to 'Back', motocycles_path %>
+

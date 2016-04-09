@@ -1,0 +1,42 @@
+<%= form_for(motocycle) do |f| %>
+  <% if motocycle.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(motocycle.errors.count, "error") %> prohibited this motocycle from being saved:</h2>
+
+      <ul>
+      <% motocycle.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :Brand %>
+    <%= f.text_field :Brand %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Model %>
+    <%= f.text_field :Model %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Year %>
+    <%= f.text_field :Year %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Capacity %>
+    <%= f.text_field :Capacity %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Horsepower %>
+    <%= f.text_field :Horsepower %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,12 @@
+
+
+<h1>Editing Motocycle</h1>
+<% if user_signed_in? %>
+
+<%= render 'form', motocycle: @motocycle %>
+
+<%= link_to 'Show', @motocycle %> |
+<%= link_to 'Back', motocycles_path %>
+<% else  %>
+	<h2>Please log in to do this activity </h2>
+<% end %>
