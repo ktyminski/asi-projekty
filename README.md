@@ -6,7 +6,7 @@
  - [x] [Motorcycle stock](https://github.com/ktyminski/asi-projekty/tree/master/motocykle)
  - [x] [link do wdrożonej na zewnętrznym serwerze aplikacji](https://motocycle.herokuapp.com/)
  
-Opis aplikacji: Gielda motocykli uzywanych, dane z uzupelnione z fakera.
+Opis aplikacji: Gielda motocykli uzywanych, dane z uzupelnione z fakera. Dodawanie i przegladanie dla niezalogowanych, usuwanie i edytowanie dla zalogowanych.
 
 | Wersja Ruby   | Wersja Rails   | Baza danych |
 |------------|---------|-------------|
